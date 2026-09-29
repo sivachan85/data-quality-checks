@@ -52,7 +52,7 @@ check detects the problem it targets and reports the correct count.
     [PASS] not_null         player_id             0 null values
     [PASS] not_null         receiving_yards       0 null values
     [PASS] in_range         receiving_yards       0 rows outside [-20, 400]
-    [PASS] in_range         week                  1 rows outside [1, 22]
+    [PASS] in_range         week                  0 rows outside [1, 22]
     [PASS] accepted_values  season                0 unexpected values
     [PASS] unique_composite player_id+season+week 0 duplicate rows
 
